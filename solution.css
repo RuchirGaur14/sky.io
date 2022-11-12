@@ -1,0 +1,55 @@
+/* Solutions sections starts here */
+
+#solutions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+.heading-changes {
+    margin-bottom: 20px;
+}
+
+.subheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    width: 95%;
+    height: auto;
+}
+
+.subheading p {
+    text-align: center;
+    width: 100%;
+    font-size: 1.39em;
+}
+
+.subheading p strong {
+    font-family: aquire;
+    letter-spacing: 2px;
+}
+
+.solutions-img {
+    display: flex;
+    max-width: 1000px;
+    height: auto;
+}
+
+.solutions-img img {
+    margin: 50px auto;
+    width: 100%;
+    height: 90%;
+}
+
+@media (max-width:760px) {
+    .subheading p{
+        font-size: 1em;
+    }
+}
+
+/* Solutions sections ends here */

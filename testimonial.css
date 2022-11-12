@@ -1,0 +1,83 @@
+/* Testimonials section starts here */
+
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.testimonial-heading {
+    font-weight: 700;
+    font-size: 3em;
+    margin: 10px auto 20px auto;
+}
+
+.testimonials-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    max-width: 1250px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.testimonials-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    max-width: 350px;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 20px 10px;
+    border-radius: 5px;
+}
+
+.testimonial-card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.testimonial-card-img img {
+    height: 420px;
+    width: 330px;
+    margin: 10px auto;
+}
+
+#foodministery-img {
+    height: 360px;
+    width: 330px;
+    margin: 10px auto;
+}
+
+.testimonial-card-about {
+    display: flex;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.testimonial-card-about p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-style: italic;
+    font-size: 1em;
+}
+
+/* Testimonials section ends here */
+
+@media (max-width:600px) {
+    .heading , .testimonial-heading {
+        font-size: 2em;
+    }
+}

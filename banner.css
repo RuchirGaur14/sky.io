@@ -1,0 +1,20 @@
+/* Banner section starts here */
+
+#banner-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.banner-img {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* Banner section ends here */

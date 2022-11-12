@@ -1,0 +1,64 @@
+/* Supported By section starts here */
+
+#supported-by-section {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.supported-by {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 3em;
+    margin: 40px auto 0px auto;
+}
+
+.carousels-container {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  cursor: pointer;
+}
+
+.carousels-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  margin: auto 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.carousels-card-img {
+  width: 100%;
+  height: 55%;
+}
+
+.carousels-card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousels-card-details {
+  width: 100%;
+  height: 40%;
+  padding: 10px;
+  text-align: center;
+}

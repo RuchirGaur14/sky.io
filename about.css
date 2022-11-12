@@ -1,0 +1,75 @@
+/* About us section starts here */
+
+#about-us-section {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 1250px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 3em;
+    margin: 40px auto 0px auto;
+    padding-top: 20px;
+}
+
+.about-us-text-and-img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    min-width: 350px;
+    justify-content:center;
+    align-items: center;
+}
+
+.img-about-us {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.img-about-us img {
+    width: 100%;
+}
+
+.text-about-us {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 350px;
+    width: 95%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-about-us p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.text-about-us p strong {
+    font-family: aquire;
+    letter-spacing: 2px;
+}
+
+@media (max-width:760px) {
+    .text-about-us p {
+        font-size: 1em;
+    }    
+}
+/* About us section ends here */
